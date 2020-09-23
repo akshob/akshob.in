@@ -4,7 +4,7 @@ Food blog forked from [CloudCannon Treat Template](https://github.com/CloudCanno
 
 ## Develop
 
-Treat was built with [Jekyll](http://jekyllrb.com/) version 3.4.3, but should support newer versions as well.
+This was built with [Jekyll](http://jekyllrb.com/) version 4.1.1
 
 Install the dependencies with [Bundler](http://bundler.io/):
 
