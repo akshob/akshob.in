@@ -16,7 +16,8 @@
 		<a target="_blank" href="{{ site.baseurl }}/feed.xml">{% include social-icon.html icon="RSS" %}</a>
 	</div>
 
-	{% if site.newsletter_action && site.newsletter_action!=""%}<form action="{{ site.newsletter_action }}" method="post">
+	{% if site.newsletter_action && site.newsletter_action!=""%}
+	<form action="{{ site.newsletter_action }}" method="post">
 		<h3>Newsletter</h3>
 		<p>Get my latest recipes sent straight to your inbox.</p>
 		<input type="text" name="EMAIL" placeholder="Email address">

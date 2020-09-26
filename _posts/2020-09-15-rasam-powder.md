@@ -2,10 +2,10 @@
 date: 2020-09-15
 title: Rasam Powder
 categories:
-  - Spices
+  - Essentials
 featured_image: /images/calum-lewis-vA1L1jRTM70-unsplash.jpg
 recipe:
-  servings: 1 cup rasam powder
+  servings: 2 cups rasam powder
   prep: 15 minutes
   cook: 15 minutes
   ingredients_markdown: |-
@@ -16,7 +16,7 @@ recipe:
     * 1/4 cup whole black pepper
     * 1/8 cup fenugreek seeds
     * 1/8 cup mustard seeds
-    * 2 and 1/2 cups dried red chillis
+    * 2 and 1/2 cups dried red chillis (break them into small chunks, and remove the calyx)
     * 2 tablespoon grated dry coconut
     * 1/4 cup curry leaves
     * 1 teaspoon turmeric powder
