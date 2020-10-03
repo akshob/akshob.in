@@ -16,7 +16,7 @@ recipe:
     * 1 teaspoon turmeric powder
     * 2 cup cut okra
     * 1 tablespoon tamarind concentrate paste (or 1/4 cup raw tamarind)
-    * 2 tablespoon [sambar powder]({% post_url 2020-09-15-sambar-powder %})
+    * 2 tablespoon [sambar powder](/essentials/2020/09/15/sambar-powder)
     * 3/4 tablespoon salt
     * 2 teaspoon mustard seeds
     * 2 tablespoon grated coconut
@@ -31,7 +31,7 @@ recipe:
     3. While you wait for it cool down, cut the okra into small peices.
     4. Add 1 tablespoon of oil and saute the okra, till the color of okra changes from bright green to dark green and it is no longer sticky.
     5. Mix the tamarind concentrate with water and add it to the sauted okra. If you have raw tamarind, add hot water to it and make your own concentrate.
-    6. Add [sambar powder]({% post_url 2020-09-15-sambar-powder %}) and salt.
+    6. Add [sambar powder](/essentials/2020/09/15/sambar-powder) and salt.
     7. Once the mixture starts to boil, add the cooked pigeon peas, grated coconut and curry leaves.
     8. Once this starts to boil, set aside.
     9. Add 1/2 tablespoon into a pan. Add mustard seeds to it.
