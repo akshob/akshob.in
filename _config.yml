@@ -63,6 +63,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-liquify
 
 exclude:
   - Gemfile
