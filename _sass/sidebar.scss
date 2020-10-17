@@ -45,5 +45,9 @@
 .sidebar.push {
 	@media #{$desktop} {
 		padding-top: 72px;
+		position: -webkit-sticky;
+    	position: sticky;
+    	top: 0;
+    	align-self: flex-start;
 	}
 }
