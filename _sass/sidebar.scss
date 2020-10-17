@@ -6,6 +6,11 @@
 	@media #{$desktop} {
 		margin: 0;
 		padding: 0 0 0 70px;
+		padding-top: 72px;
+		position: -webkit-sticky;
+    	position: sticky;
+    	top: 0;
+    	align-self: flex-start;
 	}
 
 	.author {
