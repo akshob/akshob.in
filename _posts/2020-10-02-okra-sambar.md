@@ -38,6 +38,4 @@ recipe:
     10. Once the mustards seeds start to pop, add this to the sambar.
     11. Okra sambar is ready to be served.
 ---
-Photo by [Sujeeth Potla](https://unsplash.com/@sujeethpotla?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/okra?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
-
 Okra, known as ladies' finger in many english-speaking countries, is rich in dietery fiber, vitamin C and vitamin K. Vegetables and pigeon peas are cooked together in traditional sambar. okra makes the sambar slimy if you cook it with pigeon peas. So the key is to saute the okra till it no longer is sticky!

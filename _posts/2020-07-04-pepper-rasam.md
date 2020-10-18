@@ -32,8 +32,6 @@ recipe:
     6. Roast mustard seeds and 1tsp white gram and add it.
     7. Pepper rasam is ready.
 ---
-Photo by [Calum Lewis](https://unsplash.com/@calumlewis?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/collections/46219486/spices?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
-
 Pepper has been used for decades in treating cold and flu. It is commonly reffered to as the "king of spice". So why not make something tasty out of it and get rid of that itchy throat.
 
 Recipe by [Soumya Roopkumar](https://instagram.com/soumyakumar27/)

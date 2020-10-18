@@ -4,7 +4,7 @@
 title: Rama's Kitchen
 url: "https://akshob.in"
 baseurl:
-google_analytics_key:
+analytics_url: https://matomo.akshob.in
 newsletter_action:
 disqus_shortname:
 
@@ -13,7 +13,7 @@ logo: /siteicon.png
 description: Guide to a happy tummy.
 author:
   name: Akshob
-  email: ramadhyani@byteme.in
+  email: info@akshob.in
   twitter: akshobg
 social:
   name: Rama's Kitchen
@@ -58,6 +58,11 @@ defaults:
       layout: "default"
       push_sidebar_down: true
 
+collections:
+  articles:
+    output: true
+    permalink: /:collection/:name
+
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
@@ -72,6 +77,14 @@ exclude:
   - LICENCE
 
 social_icons:
+  - Facebook
+  - Google Plus
+  - Instagram
+  - LinkedIn
+  - Pinterest
+  - Tumblr
+  - Twitter
+  - YouTube
   - Email
   - RSS
 
