@@ -35,6 +35,4 @@ recipe:
     9. Grind the mixture.
     10. Store the powder in an air tight container.
 ---
-Photo by [Calum Lewis](https://unsplash.com/@calumlewis?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/collections/46219486/spices?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
-
 The essence of rasam powder is in the combination of right amount of spices.

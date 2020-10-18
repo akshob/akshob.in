@@ -35,6 +35,4 @@ recipe:
     9. Grind the mixture.
     10. Store the powder in an air tight container.
 ---
-Photo by [Marion Botella](https://unsplash.com/@marionb_photography?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/collections/46219486/spices?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
-
 The key difference in sambar powder with rasam powder is the addition white gram and cinamon, and removal of cumin seeds and black pepper. Bengal gram thickens the sambar, but also reduces the spicyness, so we need to add more dried red chillis to counter this.
