@@ -1,0 +1,61 @@
+---
+layout: post
+title:  "Anonymize your internet traffic"
+date:   2023-02-09 16:30:00 -0000
+categories: linux
+---
+
+> Disclaimer: This article is purely for educational purposes only. I do not condone piracy.
+
+## Install OpenVPN
+
+Unfortunately, the Ubuntu and Debian repositories are not always up to date. It is recommended to use the latest OpenVPN release to make sure you have the latest security fixes (and possible updates). In case of Ubuntu Server the [official OpenVPN repository](https://community.openvpn.net/openvpn/wiki/OpenvpnSoftwareRepos) always provides the latest version. In case of ARM CPUs like the Rasperry Pi running Raspbian or Minibian, we need to build the latest version since the OpenVPN repository doesn't provide builds for ARM based devices. It is quite easy to build OpenVPN from source (stay tuned for the guide), until then, on Debian, Minibian and Raspbian you can use the version available in the Debian repository.
+
+```bash
+sudo mkdir -p /etc/apt/keyrings/
+wget -O- https://swupdate.openvpn.net/repos/repo-public.gpg | gpg --dearmor | sudo tee /etc/apt/keyrings/openvpn.gpg > /dev/null
+echo "deb [signed-by=/etc/apt/keyrings/openvpn.gpg]  http://build.openvpn.net/debian/openvpn/stable jammy main" | sudo tee /etc/apt/sources.list.d/openvpn.list
+```
+
+> Warning: Do not use apt-key anymore. See [this](https://stackoverflow.com/a/71384057) for more information. And see [here](https://askubuntu.com/a/846877) to remove the old key from trusted.gpg
+
+## Configure Mullvad OpenVPN
+
+There are different VPN providers out there. I use [Mullvad](https://mullvad.net/en/). They have a very good privacy policy and they don't keep any logs. Their [pricing](https://mullvad.net/en/pricing) is transparent and a fair model.
+
+Download the openvpn configuration from Mullvad [here](https://mullvad.net/en/account/openvpn-config?platform=linux)
+
+I am going to use Ubuntu's builtin service manager to start and stop the [OpenVPN service](https://ubuntu.com/server/docs/service-openvpn).
+
+```bash
+unzip mullvad_xx.zip
+sudo mv mullvad_xx.conf /etc/openvpn/mullvad.conf
+sudo mv mullvad_ca.crt /etc/openvpn/
+sudo mv mullvad_userpass.txt /etc/openvpn/
+```
+
+Openvpn uses templatized systemd jobs, openvpn@CONFIGFILENAME. So if for example your configuration file is myserver.conf your service is called openvpn@myserver.
+
+Enable mullvad and start the service
+
+```bash
+sudo systemctl enable openvpn@mullvad
+sudo systemctl start openvpn@mullvad
+```
+
+Find status using `journalctl` or `systemctl`
+
+```bash
+sudo journalctl -u openvpn@mullvad -xe
+
+sudo systemctl status openvpn@mullvad
+```
+
+## Fix DNS leaks
+
+Use the scripts from [https://github.com/macvk/dnsleaktest](https://github.com/macvk/dnsleaktest) to check for DNS leaks
+
+## Credits and References
+
+- [OpenVPN split tunneling](https://askubuntu.com/a/1146677)
+- [Force Torrent Traffic through VPN Split Tunnel Debian 8 + Ubuntu 16.04](https://www.htpcguides.com/force-torrent-traffic-vpn-split-tunnel-debian-8-ubuntu-16-04/)
