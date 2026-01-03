@@ -1,4 +1,4 @@
-# The Tech Chronicles
+# Runtime Stack
 
 [![pages-build-deployment](https://github.com/akshob/akshob.in/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/akshob/akshob.in/actions/workflows/pages/pages-build-deployment) [![Jekyll Build PR](https://github.com/akshob/akshob.in/actions/workflows/jekyll-docker-pr.yml/badge.svg)](https://github.com/akshob/akshob.in/actions/workflows/jekyll-docker-pr.yml)
 
