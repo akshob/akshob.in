@@ -345,7 +345,6 @@ sudo systemctl stop --force netns-vpn.service
 # Kill any remaining processes
 sudo pkill -f qbittorrent-nox
 sudo pkill -f openvpn
-
 # Clean up namespace manually
 sudo ip netns delete vpn-ns 2>/dev/null || true
 sudo ip link delete veth-host 2>/dev/null || true
