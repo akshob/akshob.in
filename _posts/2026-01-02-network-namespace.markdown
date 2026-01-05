@@ -431,7 +431,7 @@ exec /usr/sbin/ip netns exec vpn-ns /usr/bin/setpriv \
   env HOME=/var/lib/qbittorrent \
   /usr/bin/qbittorrent-nox --webui-port=8080
 EOF
-
+# Change permissions
 sudo chmod +x /usr/local/bin/qbittorrent-vpn-wrapper
 ```
 
@@ -439,7 +439,6 @@ sudo chmod +x /usr/local/bin/qbittorrent-vpn-wrapper
 ```bash
 # Test with dedicated HOME directory
 sudo HOME=/var/lib/qbittorrent ip netns exec vpn-ns /usr/bin/qbittorrent-nox --webui-port=8080
-
 # Or test as root (simpler but less secure)
 sudo ip netns exec vpn-ns /usr/bin/qbittorrent-nox --webui-port=8080
 ```
